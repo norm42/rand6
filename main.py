@@ -12,6 +12,7 @@ if __name__ == '__main__':
     while not got_all:
         # randrange is [), so need to use [1,7)
         # by integer values to get dice 1-6
+        # changing 7 to a larger number can see how long it takes to converge
         dice_num = ra.randrange(1, 7, 1)
         # check to see if the dice number does not exist
         # if so then add
